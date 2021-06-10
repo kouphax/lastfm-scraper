@@ -1,0 +1,28 @@
+#!/usr/bin/env node
+
+const yargs = require("yargs/yargs");
+const {hideBin} = require("yargs/helpers");
+const scrape = require("./lib/scrape")
+
+// noinspection BadExpressionStatementJS
+yargs(hideBin(process.argv)).command(
+    "scrape [username] [key]",
+    "scrape a users listening data",
+    (yargs) => {
+        return yargs
+            .positional("username", {
+                describe: "username to scrape",
+            })
+            .positional("key", {
+                describe: "last.fm api key"
+            })
+            .option('latest', {
+                alias: 'l',
+                type: 'boolean',
+                description: 'only get the latest data '
+            })
+    },
+    ({username, key, latest}) => {
+        scrape(username, key, latest)
+    }
+).argv;
