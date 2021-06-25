@@ -1,13 +1,49 @@
 {
   "recenttracks": {
     "@attr": {
-      "page": "583",
-      "total": "130152",
+      "page": "587",
+      "total": "130953",
       "user": "kouphax",
       "perPage": "200",
-      "totalPages": "651"
+      "totalPages": "655"
     },
     "track": [
+      {
+        "artist": {
+          "mbid": "",
+          "#text": "Maniac"
+        },
+        "album": {
+          "mbid": "f31eb221-61c5-4f06-a9d8-887a20de3ce3",
+          "#text": "Mania"
+        },
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/9c19674a417e4c16987b6663564ae0ed.jpg"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/9c19674a417e4c16987b6663564ae0ed.jpg"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/9c19674a417e4c16987b6663564ae0ed.jpg"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/9c19674a417e4c16987b6663564ae0ed.jpg"
+          }
+        ],
+        "streamable": "0",
+        "date": {
+          "uts": "13753",
+          "#text": "01 Jan 1970, 03:49"
+        },
+        "url": "https://www.last.fm/music/Maniac/_/Thank+Each+Mistake",
+        "name": "Thank Each Mistake",
+        "mbid": "206b126d-1296-4a2e-aaf9-4fa698ea947f"
+      },
       {
         "artist": {
           "mbid": "",
@@ -7166,42 +7202,6 @@
         "streamable": "0",
         "date": {
           "uts": "13554",
-          "#text": "01 Jan 1970, 03:45"
-        },
-        "url": "https://www.last.fm/music/Passion+Pit/_/Take+a+Walk",
-        "name": "Take a Walk",
-        "mbid": "00340b6d-0780-4213-b1d5-621ff61fc391"
-      },
-      {
-        "artist": {
-          "mbid": "daeec599-bf5d-4428-994a-e76ba5f86e2f",
-          "#text": "Passion Pit"
-        },
-        "album": {
-          "mbid": "01554ca6-836b-4433-abff-eb90de6e7d59",
-          "#text": "Gossamer"
-        },
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/e5d93ad6c1d34a6b8c82eb68fcb00fef.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/e5d93ad6c1d34a6b8c82eb68fcb00fef.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/e5d93ad6c1d34a6b8c82eb68fcb00fef.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/e5d93ad6c1d34a6b8c82eb68fcb00fef.png"
-          }
-        ],
-        "streamable": "0",
-        "date": {
-          "uts": "13553",
           "#text": "01 Jan 1970, 03:45"
         },
         "url": "https://www.last.fm/music/Passion+Pit/_/Take+a+Walk",

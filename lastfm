@@ -3,26 +3,51 @@
 const yargs = require("yargs/yargs");
 const {hideBin} = require("yargs/helpers");
 const scrape = require("./lib/scrape")
+const ingest = require("./lib/ingest")
+const stats = require("./lib/stats")
 
 // noinspection BadExpressionStatementJS
-yargs(hideBin(process.argv)).command(
-    "scrape [username] [key]",
-    "scrape a users listening data",
-    (yargs) => {
-        return yargs
-            .positional("username", {
-                describe: "username to scrape",
-            })
-            .positional("key", {
-                describe: "last.fm api key"
-            })
-            .option('latest', {
-                alias: 'l',
-                type: 'boolean',
-                description: 'only get the latest data '
-            })
-    },
-    ({username, key, latest}) => {
-        scrape(username, key, latest)
-    }
-).argv;
+yargs(hideBin(process.argv))
+    .command(
+        "scrape [username] [key]",
+        "scrape a users listening data",
+        (yargs) =>
+            yargs
+                .positional("username", {
+                    describe: "username to scrape",
+                })
+                .positional("key", {
+                    describe: "last.fm api key"
+                })
+                .option('latest', {
+                    alias: 'l',
+                    type: 'boolean',
+                    description: 'only get the latest data '
+                })
+        ,
+        ({username, key, latest}) => {
+            scrape(username, key, latest)
+        })
+    .command(
+        "ingest [username]",
+        "load a users data from ./raw-data into a sqlite db",
+        (yargs) =>
+            yargs
+                .positional("username", {
+                    describe: "username to ingest",
+                }),
+        ({username}) => {
+            ingest(username)
+        })
+    .command(
+        "stats [username]",
+        "generate some stats for a particular user",
+        (yargs) =>
+            yargs
+                .positional("username", {
+                    describe: "username to get stats for",
+                }),
+        ({username}) => {
+            stats(username)
+        })
+    .argv;

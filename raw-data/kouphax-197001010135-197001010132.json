@@ -1,13 +1,49 @@
 {
   "recenttracks": {
     "@attr": {
-      "page": "623",
-      "total": "130152",
+      "page": "627",
+      "total": "130953",
       "user": "kouphax",
       "perPage": "200",
-      "totalPages": "651"
+      "totalPages": "655"
     },
     "track": [
+      {
+        "artist": {
+          "mbid": "",
+          "#text": "Taking Back Sunday"
+        },
+        "album": {
+          "mbid": "",
+          "#text": "Faith (When I Let You Down) EP"
+        },
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "streamable": "0",
+        "date": {
+          "uts": "5753",
+          "#text": "01 Jan 1970, 01:35"
+        },
+        "url": "https://www.last.fm/music/Taking+Back+Sunday/_/Great+Romances+of+the+20th+Century+(Acoustic)",
+        "name": "Great Romances of the 20th Century (Acoustic)",
+        "mbid": ""
+      },
       {
         "artist": {
           "mbid": "350bce49-c21b-4137-b50a-0766ded07e4d",
@@ -2324,19 +2360,19 @@
         "image": [
           {
             "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/f1993e45b36772b764495786820152ab.jpg"
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/0ce6aae6665492a228c9412fccf913bc.png"
           },
           {
             "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/f1993e45b36772b764495786820152ab.jpg"
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/0ce6aae6665492a228c9412fccf913bc.png"
           },
           {
             "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/f1993e45b36772b764495786820152ab.jpg"
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/0ce6aae6665492a228c9412fccf913bc.png"
           },
           {
             "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/f1993e45b36772b764495786820152ab.jpg"
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/0ce6aae6665492a228c9412fccf913bc.png"
           }
         ],
         "streamable": "0",
@@ -7166,42 +7202,6 @@
         "streamable": "0",
         "date": {
           "uts": "5554",
-          "#text": "01 Jan 1970, 01:32"
-        },
-        "url": "https://www.last.fm/music/Kids+in+Glass+Houses/_/Gold+Blood",
-        "name": "Gold Blood",
-        "mbid": "d792f886-7225-3788-acf4-fa2383d4febd"
-      },
-      {
-        "artist": {
-          "mbid": "a7da8d09-c406-4fdc-8cb0-affa39ffbabb",
-          "#text": "Kids in Glass Houses"
-        },
-        "album": {
-          "mbid": "2972329c-3288-41f4-a70a-eba385ddf9ed",
-          "#text": "In Gold Blood"
-        },
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/f97b81626c2841eb993968e65c6a16fc.jpg"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/f97b81626c2841eb993968e65c6a16fc.jpg"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/f97b81626c2841eb993968e65c6a16fc.jpg"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/f97b81626c2841eb993968e65c6a16fc.jpg"
-          }
-        ],
-        "streamable": "0",
-        "date": {
-          "uts": "5553",
           "#text": "01 Jan 1970, 01:32"
         },
         "url": "https://www.last.fm/music/Kids+in+Glass+Houses/_/Gold+Blood",
